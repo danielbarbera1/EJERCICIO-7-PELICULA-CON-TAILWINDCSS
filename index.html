@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- barra de navegacion fondo -->
+    <nav class="bg-blue-700 h-2/4 ">
+
+        <!-- contenedor  -->
+        <div class="flex items-center p-2.5 w-auto gap-3">
+
+            <!-- contenedor del logo -->
+            <div class="flex items-center">
+                <img class="w-16 h-auto rounded-full mr-2" src="src/img/logo.jpg" alt="">
+            </div>
+
+            <!-- contenedor del menu -->
+            <ul class="flex flex-row gap-x-3 text-white  text-base">
+                <li>Incio</li>
+                <li>Menu</li>
+                <li>Contacto</li>
+                <li>Cine</li>
+            </ul>
+
+            <!-- contenedor del buscador y su boton-->
+            <div class=" flex flex-row gap-3 right ml-auto ">
+
+                <div class="bg-white">
+                    <input type="text" placeholder="buscar...">
+                </div>
+
+                <div class="bg-white">
+                    <button> <i class='bx  bx-search-alt'></i> </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- fondo y altura  -->
+    <nav class="bg-blue-500 h-2/4  ">
+
+        <!-- texto de tendencia  -->
+        <div class="text-center text-white text-6xl p-2 ">
+            <h1>TENDENCIA</h1>
+        </div>
+
+        <!-- carucel de peliculas -->
+        <article class="bg-blue-300  max-w-auto p-5 overflow-x-auto mx-30 rounded-2xl ">
+
+            <!-- modificacion de img -->
+            <section class=" flex flex-nowrap w-40  gap-5 redondeado-xl  ">
+                <img src="src/img/1.jpg" alt="">
+                <img src="src/img/2.jpg" alt="">
+                <img src="src/img/3.jpg" alt="">
+                <img src="src/img/4.jpg" alt="">
+                <img src="src/img/5.jpg" alt="">
+                <img src="src/img/6.jpg" alt="">
+                <img src="src/img/7.jpg" alt="">
+                <img src="src/img/8.jpg" alt="">
+                <img src="src/img/9.jpg" alt="">
+                <img src="src/img/10.jpg" alt="">
+                <img src="src/img/11.jpg" alt="">
+                <img src="src/img/12.jpg" alt="">
+            </section>
+        </article>
+    </nav>
+
+    <!--- "GENEROS y PELICULAS " --->
+    <main class=" mx-auto flex flex-col md:flex-row gap-6 bg-blue-500">
+
+        <!--- "FONDO DE GENEROS" --->
+        <aside class=" w-full md:w-1/4 lg:w-1/5">
+
+            <div>
+                <!--- "TITULO DE MENU DE GENEROS " --->
+                <div class="text-white text-2xl bg-blue-300 h-2/4 m-3 text-center  ">
+                    <h2>MENU DE GENEROS</h2>
+                </div>
+
+                <!--- "LISTA DE GENEROS " --->
+                <ul class="text-2xl text-center text-white">
+                    <li class="bg-blue-700 m-3"><button>ACCION</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>AVENTURA</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>ANIMACION</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>COMEDIA</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>CRIMEN</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>DOCUMENTAL</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>DRAMA</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>FAMILIA</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>FATANSIA</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>HISTORIA</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>TERROR</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>MUSICA</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>MISTERIO</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>ROMANCE</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>CIENCIA FICCION</button>
+                    </li>
+                    <li class="bg-blue-700 m-3"><button>SUPENSO</button>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!--- "PELICULAS " --->
+        <section class="w-full md:w-3/4 ">
+
+            <!--- "TITULO DE PELICULAS  " --->
+            <div class="text-center text-white text-3xl bg-blue-300  w-auto m-3">
+                <h1>PELICULAS</h1>
+            </div>
+
+            <!--- "CATALOGO DE PELICULAS " --->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+
+                <!--- "CONTENEDOR DE PELICULAS " --->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/1.jpg" alt="">
+                    <h2>Supermascotas</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/2.jpg" alt="">
+                    <h2>dragon ball super cell</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/3.jpg" alt="">
+                    <h2>los avengers</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/4.jpg" alt="">
+                    <h2>la princesa</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/5.jpg" alt="">
+                    <h2>sonic</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/6.jpg" alt="">
+                    <h2>el hombre del norte</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/7.jpg" alt="">
+                    <h2>tren bala</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/8.jpg" alt="">
+                    <h2>desaparecida sin rasto</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/9.jpg" alt="">
+                    <h2>asesino sin memoria</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/10.jpg" alt="">
+                    <h2>pelicula china</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src//img/11.jpg" alt="">
+                    <h2>one pice red</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/12.jpg" alt="">
+                    <h2>dark web</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/13.jpg" alt="">
+                    <h2>emboscada</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/14.jpg" alt="">
+                    <h2>chaned</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/15.jpg" alt="">
+                    <h2>la huerfana :el origen </h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/16.jpg" alt="">
+                    <h2>asesino sin memoria 2 </h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/17.jpg" alt="">
+                    <h2>amor adulto</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/18.jpg" alt="">
+                    <h2>religion india</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/19.jpg" alt="">
+                    <h2>el juego de los idiotas</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-3 transform hover:scale-105 transition-transform duration-200">
+                    <img src="src/img/20.jpg" alt="">
+                    <h2>el perro rokero</h2>
+                    <button class="boton">Detalle</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html
